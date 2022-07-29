@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Montserrat:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -13,26 +23,47 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*-------------------------- Navbar styling -------------------------- */
+
+.navbar{
+  background-color: #3E300C;
+  color: #F1E7E7;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
+  padding: 0 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar a{
+  color: inherit;
+  padding-top: 2.5rem;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar a:hover{
+  color: #84ACC2;
 }
+
+li a:hover{
+  color: #84ACC2;
+}
+
+.navbar ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+.siteTitle{
+  font-family: 'Josefin Slab', serif;
+  font-size: 50px;
+  padding-bottom: 2.5rem;
+  text-decoration: none;
+}
+
+/*-------------------------- Navbar styling -------------------------- */
