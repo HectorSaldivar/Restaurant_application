@@ -104,3 +104,32 @@ li a:hover{
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCKz2caQidnpcej_lu54wj_WxflaGgr1TZg&usqp=CAU");
 }
 /*-------------------------- Menu styling -------------------------- */
+/*-------------------------- Purpose styling -------------------------- */
+.purposeTitle{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.purposeTitle h1{
+  font-family: 'Josefin Slab', serif;
+  font-size: 80px;
+}
+
+.ppurposetext{
+  font-family: 'Josefin Slab', serif;
+  font-size: 45px;
+  text-align: left;
+  padding-left: 340px;
+}
+
+.purpose{
+  padding-bottom: 50px;
+}
+/*-------------------------- Purpose styling -------------------------- */
+/*-------------------------- Menu styling -------------------------- */
+.menuMenu{
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  padding-bottom: 50px;
+}
+/*-------------------------- Menu styling -------------------------- */

@@ -6,11 +6,13 @@ import Col from 'react-bootstrap/Col';
 function Menu() {
   return (
     <div className='menu'>
-      <div className='purposeTitle'>
-        <h1>Our purpose</h1>
-      </div>
-      <div className='purposeText'>
-        <p className='ppurposetext'>To make people happy trough our food, come and get a taste!!!</p>
+      <div className='purpose'>
+        <div className='purposeTitle'>
+          <h1>Our purpose</h1>
+        </div>
+        <div className='purposeText'>
+          <div className='ppurposetext'>To make people happy trough our food,</div><div className='ppurposetext'>come and get a taste!!!</div>
+        </div>
       </div>
       <div className='menuMenu'>
         <p>Menu</p>
