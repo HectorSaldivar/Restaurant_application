@@ -117,7 +117,7 @@ li a:hover{
 
 .ppurposetext{
   font-family: 'Josefin Slab', serif;
-  font-size: 45px;
+  font-size: 48px;
   text-align: left;
   padding-left: 340px;
 }
@@ -132,4 +132,49 @@ li a:hover{
   font-size: 90px;
   padding-bottom: 50px;
 }
+
+.firstRow{
+  padding-bottom: 150px;
+}
+
+.firstRow img{
+  width: 490px;
+  height: 400px;
+}
+
+.secondRow{
+  padding-bottom: 150px;
+}
+
+.secondRow img{
+  width: 490px;
+  height: 400px;
+}
+
+.thirdRow{
+  padding-bottom: 150px;
+}
+
+.thirdRow img{
+  width: 490px;
+  height: 400px;
+}
+
+.locationTitle{
+  font-family: 'Josefin Slab', serif;
+  padding-bottom: 90px;
+}
+
+.locationTitle h1{
+  font-size: 90px;
+}
+
+
 /*-------------------------- Menu styling -------------------------- */
+/*-------------------------- Location styling -------------------------- */
+.location{
+  background-color: #84ACC2;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+/*-------------------------- Location styling -------------------------- */
