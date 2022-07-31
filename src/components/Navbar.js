@@ -1,10 +1,11 @@
 import React from 'react'
+import { AiFillHeart } from "react-icons/ai";
 
 function Navbar() {
   return (
     <nav className='navbar'>
       <a href='/' className='siteTitle'>
-        Brunch
+        Brunch<span className='firstHeart'><AiFillHeart/></span><span className='secondHeart'><AiFillHeart/></span><span className='thirdHeart'><AiFillHeart/></span>
       </a>
       <ul>
         <li>

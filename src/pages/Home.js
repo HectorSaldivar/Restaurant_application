@@ -1,8 +1,17 @@
 import React from 'react'
+import UncontrolledExample from '../components/Carousel'
+import Menu from '../components/Menu'
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+    <div className='carousel'>
+      <UncontrolledExample />
+    </div>
+    <div className='menu'>
+      <Menu />
+    </div>
+    </>
   )
 }
 

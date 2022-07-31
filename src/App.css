@@ -57,6 +57,7 @@ li a:hover{
   gap: 2.5rem;
   font-family: 'Josefin Slab', serif;
   font-size: 20px;
+  padding-right: 90px;
 }
 
 .siteTitle{
@@ -64,6 +65,42 @@ li a:hover{
   font-size: 50px;
   padding-bottom: 2.5rem;
   text-decoration: none;
+  padding-left: 90px;
+}
+
+.firstHeart{
+  color: green;
+  font-size: 10px;
+}
+
+.secondHeart{
+  color: white;
+  font-size: 10px;
+}
+
+.thirdHeart{
+  color: red;
+  font-size: 10px;
 }
 
 /*-------------------------- Navbar styling -------------------------- */
+/*-------------------------- Carousel styling -------------------------- */
+.carousel{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #84ACC2;
+}
+
+.carousel h3{
+  font-family: 'Josefin Slab', serif;
+  font-size: 50px;
+}
+
+/*-------------------------- Carousel styling -------------------------- */
+/*-------------------------- Menu styling -------------------------- */
+.menu{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCKz2caQidnpcej_lu54wj_WxflaGgr1TZg&usqp=CAU");
+}
+/*-------------------------- Menu styling -------------------------- */
