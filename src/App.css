@@ -102,6 +102,7 @@ li a:hover{
 /*-------------------------- Menu styling -------------------------- */
 .menu{
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCKz2caQidnpcej_lu54wj_WxflaGgr1TZg&usqp=CAU");
+  background-size: cover;
 }
 /*-------------------------- Menu styling -------------------------- */
 /*-------------------------- Purpose styling -------------------------- */
@@ -178,3 +179,13 @@ li a:hover{
   padding-bottom: 90px;
 }
 /*-------------------------- Location styling -------------------------- */
+/*-------------------------- Instagram styling -------------------------- */
+.instagram{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCKz2caQidnpcej_lu54wj_WxflaGgr1TZg&usqp=CAU");
+}
+
+.instagramTitle{
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+}
+/*-------------------------- Instagram styling -------------------------- */
