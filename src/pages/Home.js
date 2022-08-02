@@ -3,6 +3,7 @@ import UncontrolledExample from '../components/Carousel'
 import Menu from '../components/Menu'
 import Location from '../components/Location'
 import Instagram from '../components/Instagram'
+import Contact from '../components/Contact'
 
 function Home() {
   return (
@@ -18,6 +19,9 @@ function Home() {
     </div>
     <div className='instagram'>
       <Instagram />
+    </div>
+    <div>
+      <Contact />
     </div>
     </>
   )

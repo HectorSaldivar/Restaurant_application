@@ -213,19 +213,36 @@ li a:hover{
   text-align: left;
   padding-top: 100px;
   padding-left: 400px;
-  padding-bottom: 100px;
+  padding-bottom: 140px;
 }
 
 .contact{
   background-color: #84ACC2;
   font-family: 'Josefin Slab', serif;
   font-size: 90px;
-  padding-top: 100px;
+  padding-top: 60px;
   padding-left: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   padding-right: 40px;
   
 }
 
-
 /*-------------------------- Instagram styling -------------------------- */
+/*-------------------------- Contact styling -------------------------- */
+.contact{
+  background-color: #84ACC2;
+}
+
+.contactInfo{
+  color: #F1E7E7;
+}
+
+.contactNumber{
+  color: #F1E7E7;
+}
+
+.prefooter{
+  background-image: url("https://wallpaperaccess.com/full/569176.png");
+  background-size: cover;
+  padding: 120px;
+}
