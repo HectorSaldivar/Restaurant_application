@@ -185,25 +185,28 @@ li a:hover{
   background-size: cover;
 }
 
-.instagramTitle{
+.instaTitle{
   font-family: 'Josefin Slab', serif;
   font-size: 90px;
-}
-
-.widget{
-  padding-left: 90px !important;
-  padding-right: 90px !important;
-}
-
-.instaTitle{
-  padding-bottom: 100px;
-  padding-top: 100px;
+  padding-top: 140px;
 }
 
 .instagramWidget{
-  padding-top: 100px;
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+  padding-top: 150px !important;
+  padding-bottom: 150px !important;
+}
+
+.instaTitle{
+  padding-bottom: 0px;
+  padding-top: 150px;
+}
+
+.instagramWidget{
+  padding-top: 50px;
   padding-right: 90px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   padding-left: 90px;
 }
 
@@ -211,9 +214,9 @@ li a:hover{
   font-family: 'Josefin Slab', serif;
   font-size: 90px;
   text-align: left;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 400px;
-  padding-bottom: 140px;
+  padding-bottom: 200px;
 }
 
 .contact{
@@ -241,8 +244,21 @@ li a:hover{
   color: #F1E7E7;
 }
 
-.prefooter{
+.delivery{
   background-image: url("https://wallpaperaccess.com/full/569176.png");
   background-size: cover;
   padding: 120px;
+}
+
+.delivery h1{
+  font-family: 'Josefin Slab', serif;
+  font-size: 120px;
+}
+
+.deliveryIcons{
+  background-color: #84ACC2;
+}
+
+.deliveryIcons h1{
+  display: block;
 }

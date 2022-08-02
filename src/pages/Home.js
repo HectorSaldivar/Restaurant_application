@@ -4,6 +4,7 @@ import Menu from '../components/Menu'
 import Location from '../components/Location'
 import Instagram from '../components/Instagram'
 import Contact from '../components/Contact'
+import Delivery from '../components/Delivery'
 
 function Home() {
   return (
@@ -22,6 +23,9 @@ function Home() {
     </div>
     <div>
       <Contact />
+    </div>
+    <div>
+      <Delivery />
     </div>
     </>
   )
