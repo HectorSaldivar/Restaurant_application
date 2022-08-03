@@ -257,8 +257,6 @@ li a:hover{
 
 .deliveryIcons{
   background-color: #84ACC2;
-}
-
-.deliveryIcons h1{
-  display: block;
+  display: flex;
+  gap: 2.5rem;
 }
