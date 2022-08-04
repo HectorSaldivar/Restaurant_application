@@ -5,6 +5,7 @@ import Location from '../components/Location'
 import Instagram from '../components/Instagram'
 import Contact from '../components/Contact'
 import Delivery from '../components/Delivery'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -26,6 +27,9 @@ function Home() {
     </div>
     <div>
       <Delivery />
+    </div>
+    <div>
+      <Footer />
     </div>
     </>
   )

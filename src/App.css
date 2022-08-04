@@ -243,20 +243,100 @@ li a:hover{
 .contactNumber{
   color: #F1E7E7;
 }
-
+/*-------------------------- Contact styling -------------------------- */
+/*-------------------------- Delivery styling -------------------------- */
 .delivery{
   background-image: url("https://wallpaperaccess.com/full/569176.png");
   background-size: cover;
   padding: 120px;
+  padding-bottom: 200px;
 }
 
 .delivery h1{
   font-family: 'Josefin Slab', serif;
   font-size: 120px;
+  padding-bottom: 90px;
 }
 
 .deliveryIcons{
   background-color: #84ACC2;
   display: flex;
-  gap: 2.5rem;
+  gap: 8rem;
+  text-align: center;
+  align-items: center;
 }
+
+/*-------------------------- Delivery styling -------------------------- */
+/*-------------------------- Footer styling -------------------------- */
+
+.footer{
+  background-color: #3E300C;
+  width: 100%; 
+  overflow: hidden;
+}
+
+.footerLeft{
+  width: 600px; 
+  float: left;
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  color: #F1E7E7;
+}
+
+.footerRight{
+  margin-left: 450px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  color: #F1E7E7;
+  padding-left: 350px;
+  padding-top: 40px;
+}
+
+.firstTextFooterLeft{
+  font-family: 'Josefin Slab', serif;
+  font-size: 45px;
+  color: #F1E7E7;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.firstTextFooterLeft span{
+  font-size: 18px;
+}
+
+.secondTextFooterLeft{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  color: #F1E7E7;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.thirdTextFooterLeft{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  color: #F1E7E7;
+  text-align: left;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.footerTextRight{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  color: #F1E7E7;  
+}
+
+.iconFooter{
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  color: #F1E7E7;
+  margin-left: 50px;
+}
+
+
+
+/*-------------------------- Footer styling -------------------------- */

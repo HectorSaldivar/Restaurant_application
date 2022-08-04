@@ -6,10 +6,14 @@ function Delivery() {
             <h1>Delivery</h1>
             <div className='deliveryIcons'>
                     <span className='firstLogo'>
-                        <a href='/'>Home</a>
+                    <a href='/'>
+                           <img src="https://mitacotaqueria.com/wp-content/uploads/2020/05/Ritual-Logo-Black-PNG-small.png" alt="First slide"></img>
+                        </a>
                     </span>
                     <span className='secondLogo'>
-                        <a href='/'>Menu</a>
+                        <a href='/'>
+                           <img src="http://assets.stickpng.com/thumbs/5e8ce484664eae0004085467.png" alt="First slide"></img>
+                        </a>
                     </span>
                     <span className='thirdLogo'>
                         <a href='/'>
