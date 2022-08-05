@@ -98,6 +98,19 @@ li a:hover{
   font-size: 50px;
 }
 
+.carousel p{
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+.carouselText{
+  background-color: #3E300C;
+}
+
+.carouselTextDescription{
+  background-color: #3E300C;
+}
+
 /*-------------------------- Carousel styling -------------------------- */
 /*-------------------------- Menu styling -------------------------- */
 .menu{
