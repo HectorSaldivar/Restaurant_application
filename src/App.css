@@ -368,9 +368,18 @@ li a:hover{
 
 .colLeft{
   padding-right: 60px;
+  width: 490px;
+  height: 400px;
 }
 
 .colRight{
   padding-left: 60px;
+  width: 490px;
+  height: 400px;
+}
+
+.RowMenuImg{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 /*-------------------------- Dishes Menu Screen Styling -------------------------- */
