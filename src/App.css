@@ -353,3 +353,24 @@ li a:hover{
 
 
 /*-------------------------- Footer styling -------------------------- */
+/*-------------------------- Dishes Menu Screen Styling -------------------------- */
+.dishesMenuText{
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  color: #F1E7E7;
+}
+
+.dishesMenu{
+  background-color: #84ACC2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.colLeft{
+  padding-right: 60px;
+}
+
+.colRight{
+  padding-left: 60px;
+}
+/*-------------------------- Dishes Menu Screen Styling -------------------------- */

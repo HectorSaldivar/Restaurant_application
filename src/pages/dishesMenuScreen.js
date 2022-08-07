@@ -1,13 +1,12 @@
 import React from 'react'
-import { Navbar } from 'react-bootstrap'
-import Navbar from '../components/Navbar'
+import DishesMenu from '../components/DishesMenu'
 
-function dishesMenuScreen() {
+function DishesMenuScreen() {
   return (
     <>
-     <div>Hola</div>
+    < DishesMenu />
     </>
   )
 }
 
-export default dishesMenuScreen
+export default DishesMenuScreen
