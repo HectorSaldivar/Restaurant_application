@@ -12,7 +12,7 @@ function Delivery() {
                     </span>
                     <span className='secondLogo'>
                         <a href='/'>
-                           <img src="http://assets.stickpng.com/thumbs/5e8ce484664eae0004085467.png" alt="First slide"></img>
+                           <img src="https://assets.stickpng.com/images/5e8ce484664eae0004085467.png" alt="First slide"></img>
                         </a>
                     </span>
                     <span className='thirdLogo'>
