@@ -12,10 +12,10 @@ function Navbar() {
           <a href='/home'>Home</a>
         </li>
         <li>
-          <a href='/DishesMenuScreen'>Menu</a>
+          <a href='/MenuScreen'>Menu</a>
         </li>
         <li>
-          <a href='/location'>Location</a>
+          <a a href='/LocationScreen'>Location</a>
         </li>
         <li>
           <a href='/delivery'>Delivery</a>

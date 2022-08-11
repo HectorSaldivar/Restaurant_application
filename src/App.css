@@ -177,6 +177,8 @@ li a:hover{
 .locationTitle{
   font-family: 'Josefin Slab', serif;
   padding-bottom: 90px;
+  padding-top: 90px;
+  background-color: #84ACC2;
 }
 
 .locationTitle h1{
@@ -472,11 +474,24 @@ li a:hover{
   top: 55%;
   font-family: 'Josefin Slab', serif;
   color:#F1E7E7;
+  width: 80%;
+  padding-left: 220px;
+  align-items: center;
 }
 
 .colCenter img:hover{
   filter: blur(5px) brightness(60%);
 }
+
+
+.colCenter img:hover{
+  filter: blur(5px) brightness(60%);
+}
+
+.colCenter:hover :not(img, a){
+  opacity: 1;
+}
+
 
 
 /*-------------------------- Dishes Menu Screen Styling -------------------------- */
