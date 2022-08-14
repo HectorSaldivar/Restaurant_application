@@ -83,6 +83,21 @@ li a:hover{
   font-size: 10px;
 }
 
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
 /*-------------------------- Navbar styling -------------------------- */
 /*-------------------------- Carousel styling -------------------------- */
 .carousel{
@@ -495,3 +510,90 @@ li a:hover{
 
 
 /*-------------------------- Dishes Menu Screen Styling -------------------------- */
+/*-------------------------- Responsive Design Screen Styling -------------------------- */
+
+@media (max-width: 500px){
+  .navbar{
+    background-color: #3E300C;
+    color: #F1E7E7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  
+  .navbar a{
+    color: inherit;
+    padding-top: 2.5rem;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover{
+    color: #84ACC2;
+  }
+  
+  li a:hover{
+    color: #84ACC2;
+  }
+  
+  .navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  
+  .siteTitle{
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    padding-bottom: 2.5rem;
+    text-decoration: none;
+    padding-left: 0px;
+  }
+  
+  .firstHeart{
+    color: green;
+    font-size: 10px;
+  }
+  
+  .secondHeart{
+    color: white;
+    font-size: 10px;
+  }
+  
+  .thirdHeart{
+    color: red;
+    font-size: 10px;
+  }
+
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navMenu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+  }
+  
+}
+
+/*-------------------------- Responsive Design Screen Styling -------------------------- */
