@@ -32,7 +32,7 @@ body{
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  padding: 0 5rem;
+  padding: 0 2rem;
 }
 
 .navbar a{
@@ -592,8 +592,19 @@ li a:hover{
     top: 70px;
     gap: 0;
     flex-direction: column;
+    background-color:#3E300C;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  navMenu li{
+    margin: 16px 0;
   }
   
+  .nav-menu.active{
+    left: 0;
+  }
 }
 
 /*-------------------------- Responsive Design Screen Styling -------------------------- */
